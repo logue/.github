@@ -14,8 +14,8 @@ body:
       description: What is your idea?
     validations:
       required: true
-  - type: file
-    id: design
-    attributes:
-      label: 🖼️ Design (optional)
-      description: If you have a design or mockup, please attach it here.
+#  - type: file
+#    id: design
+#    attributes:
+#      label: 🖼️ Design (optional)
+#      description: If you have a design or mockup, please attach it here.

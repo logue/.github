@@ -15,12 +15,19 @@ body:
     validations:
       required: true
   - type: input
+    id: environment
+    attributes:
+      label: 🌐 Environment
+      description: What environment are you running the code in? (e.g. OS, browser, Node.js version)
+    validations:
+      required: false
+  - type: input
     id: version
     attributes:
       label: 🏷️ Version
       placeholder: e.g. v1.2.3
     validations:
-      required: true
+      required: false
   - type: textarea
     id: reproduction
     attributes:
@@ -30,9 +37,9 @@ body:
         1. Go to '...'
         2. Click on '....'
     validations:
-      required: true
-  - type: file
-    id: screenshot
-    attributes:
-      label: 🖼️ Screenshot (optional)
-      description: If applicable, add screenshots to help explain your problem.
+      required: false
+#  - type: file
+#    id: screenshot
+#    attributes:
+#      label: 🖼️ Screenshot (optional)
+#      description: If applicable, add screenshots to help explain your problem.
