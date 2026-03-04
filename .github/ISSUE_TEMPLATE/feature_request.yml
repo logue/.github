@@ -1,0 +1,21 @@
+name: 🚀 Feature Request
+description: Suggest an idea for this project.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠️ Important / 重要
+        - Please submit issues in **English** or **Japanese**.
+        - 要望は**英語**または**日本語**で行ってください。
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 📝 Describe the feature
+      description: What is your idea?
+    validations:
+      required: true
+  - type: file
+    id: design
+    attributes:
+      label: 🖼️ Design (optional)
+      description: If you have a design or mockup, please attach it here.
